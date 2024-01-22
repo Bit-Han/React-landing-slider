@@ -41,21 +41,26 @@
 
 
 // eslint-disable-next-line react/prop-types
-const Slider = ({ value, onChange}) => {
+
+import Slider from "react-slider";
+
+// eslint-disable-next-line react/prop-types
+const CustomSlider = ({ value, onChange}) => {
   return (
 		<div className="flex items-center mt-6">
-			<label className="text-lg mr-4">Select your investment level:</label>
-			<input
+			<label className="text-lg mr-4">Select your investment level: {value}</label>
+			<Slider
 				type="range"
-				min="0"
-				max="10"
+				min={0}
+				max={10}
+				step={1}
 				value={value}
-				onChange={(e) => onChange(e.target.value)}
+				onChange={onChange}
 				className="w-1/2"
 			/>
-			<span className="ml-4">{value}</span>
+			{/* <span className="ml-4">{value}</span> */}
 		</div>
 	);
 }
 
-export default Slider;
+export default CustomSlider;
