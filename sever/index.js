@@ -2,7 +2,7 @@ const MongoClient = require("mongodb").MongoClient;
 const express = require("express");
 const cors = require("cors")
 const app = express();
-const port = 5000;
+const port = 5001;
 app.use(cors())
 // Connection URL and database name
 const url =

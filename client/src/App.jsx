@@ -1,10 +1,9 @@
-//import ExaPortfolio from "./layout/ExaPortfolio";
-import Navbar from "./layout/Navbar";
+// import ExaPortfolio from "/layout/ExaPortfolio";
+import Slider from "./layout/Slider"
+// import Navbar from "./layout/Navbar";
 
 function App() {
-	return <Navbar />;
-
-	// <ExaPortfolio />;
+	return 	<Slider />;
 }
 
 export default App;

@@ -8,6 +8,14 @@
 	box-sizing: border-box;
 }
 
+/* body {
+	width:auto;
+	height: 100vh;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+} */
+
 @layer utilities {
 	.container {
 		@apply mx-auto 2xl:max-w-[1320px] xl:max-w-[1140px] lg:max-w-[960px] md:max-w-[860px] px-4 lg:p-0 sm:max-w-[520px] w-full;
