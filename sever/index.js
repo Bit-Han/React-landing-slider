@@ -2,11 +2,13 @@ const MongoClient = require("mongodb").MongoClient;
 const express = require("express");
 const cors = require("cors")
 const app = express();
-const port = 5000;
+require("dotenv").config();
+
+
+const port = process.env.PORT;
 app.use(cors())
 // Connection URL and database name
-const url =
-	"mongodb+srv://Demaria96:Godofmercy96@cluster0.eizgcha.mongodb.net/?retryWrites=true&w=majority";
+const url = process.env.MONGODB_URI;
 const dbName = "investment-data"; // Replace with your actual database name
 
 const collectionName = "Risk-level-data"; // collection name

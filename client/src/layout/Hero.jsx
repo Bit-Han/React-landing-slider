@@ -3,7 +3,7 @@ function Hero() {
 		<section>
 			<div className="wow fadeInUp text-center text-indigo-900 space-y-8 mt-28 mb-16">
 				<h4 className="text-xl lg:text-2xl font-bold">
-					Send money in a heartbeat
+					Grow your wealth with a few clicks
 				</h4>
 
 				<h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">
@@ -11,8 +11,7 @@ function Hero() {
 				</h1>
 
 				<p className="text-sm sm:text-base font-medium">
-					Sign up to start saving on international money transfers and currency
-					exchange.
+					Sign up to start investing your money wisely and safely
 				</p>
 			</div>
 
@@ -21,14 +20,14 @@ function Hero() {
 					<img
 						src="/images/global-payment-img.png"
 						className="h-auto object-contain object-center align-middle mt-16 xl:mt-0"
-						alt=""
+						alt="image-invest"
 					/>
 				</div>
 
 				<div className="w-full xl:w-1/2 grid grid-cols-1 md:grid-cols-2 gap-6 text-indigo-900">
 					<div className="transition-all duration-300 border border-indigo-200 rounded-3xl p-4 lg:p-8 text-center flex flex-col space-y-8 hover:border-gray-200 hover:border-opacity-50 hover:shadow-2xl">
 						<div className="flex items-center justify-center">
-							<img src="/images/global-payment-icon-1.png" alt="" />
+							<img src="/images/global-payment-icon-1.png" alt="icon" />
 						</div>
 						<h3 className="text-xl lg:text-2xl font-bold text-indigo-900">
 							Peace of Mind
@@ -39,12 +38,12 @@ function Hero() {
 						</p>
 					</div>
 
-					<div className="transition-all duration-300 border border-indigo-200 rounded-3xl p-4 lg:p-8 text-center flex flex-col space-y-8 hover:border-gray-200 hover:border-opacity-50 hover:shadow-2xl">
+					<div className="transition-all duration-300 border border-blue-200 rounded-3xl p-4 lg:p-8 text-center flex flex-col space-y-8 hover:border-gray-200 hover:border-opacity-50 hover:shadow-2xl">
 						<div className="flex items-center justify-center">
-							<img src="/images/global-payment-icon-2.png" alt="" />
+							<img src="/images/global-payment-icon-2.png" alt="icon" />
 						</div>
-						<h3 className="text-xl lg:text-2xl font-bold text-indigo-900">
-							Business-Ready
+						<h3 className="text-xl lg:text-2xl font-bold text-blue-900">
+							Cheap fees
 						</h3>
 						<p className="max-w-lg">
 							Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel
@@ -52,11 +51,11 @@ function Hero() {
 						</p>
 					</div>
 
-					<div className="transition-all duration-300 border border-indigo-200 rounded-3xl p-4 lg:p-8 text-center flex flex-col space-y-8 hover:border-gray-200 hover:border-opacity-50 hover:shadow-2xl">
+					<div className="transition-all duration-300 border border-blue-200 rounded-3xl p-4 lg:p-8 text-center flex flex-col space-y-8 hover:border-gray-200 hover:border-opacity-50 hover:shadow-2xl">
 						<div className="flex items-center justify-center">
-							<img src="/images/global-payment-icon-3.png" alt="" />
+							<img src="/images/global-payment-icon-3.png" alt="icon" />
 						</div>
-						<h3 className="text-xl lg:text-2xl font-bold text-indigo-900">
+						<h3 className="text-xl lg:text-2xl font-bold text-blue-900">
 							100% Transparent
 						</h3>
 						<p className="max-w-lg">
@@ -65,12 +64,12 @@ function Hero() {
 						</p>
 					</div>
 
-					<div className="transition-all duration-300 border border-indigo-200 rounded-3xl p-4 lg:p-8 text-center flex flex-col space-y-8 hover:border-gray-200 hover:border-opacity-50 hover:shadow-2xl">
+					<div className="transition-all duration-300 border border-blue-200 rounded-3xl p-4 lg:p-8 text-center flex flex-col space-y-8 hover:border-gray-200 hover:border-opacity-50 hover:shadow-2xl">
 						<div className="flex items-center justify-center">
-							<img src="/images/global-payment-icon-4.png" alt="" />
+							<img src="/images/global-payment-icon-4.png" alt="icon" />
 						</div>
-						<h3 className="text-xl lg:text-2xl font-bold text-indigo-900">
-							International Network
+						<h3 className="text-xl lg:text-2xl font-bold text-blue-900">
+							More investing options
 						</h3>
 						<p className="max-w-lg">
 							Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel
