@@ -5,18 +5,18 @@ import Footer from "./layout/Footer";
 import Hero from "./layout/Hero";
 import CalltoAction from "./layout/CalltoAction";
 import TaxPage from "./layout/TaxPage";
-import DisplayCharts from "./layout/DisplayCharts";
+//import DisplayCharts from "./layout/DisplayCharts";
 
 function App() {
 	return (
 		<div>
-			{/* <Navbar />
+			<Navbar />
 			<Banner />
 			<Hero />
 			<CalltoAction />
 			<TaxPage />
-			<Footer />  */}
-			<DisplayCharts />
+			<Footer />  
+			{/* <DisplayCharts /> */}
 		</div>
 	);
 }
