@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import  { useState, useEffect } from "react";
 import { Bar } from "react-chartjs-2";
-import Chart from "chart.js/auto";
+
 
 
 const Chartjs = () => {
@@ -15,7 +15,7 @@ const Chartjs = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("http://localhost:5000/risk-data");
+        const response = await fetch("https://riskapi.onrender.com");
         const data = await response.json();
 
         setFetchedData(data); // Set the fetched data
@@ -167,7 +167,7 @@ const Chartjs = () => {
           display: false,
         },
         ticks: {
-          callback: function (value, index, values) {
+          callback: function (value, index, ) {
             if (value === 0) {
               return otherColumns[index];
             } else {
